@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Models">
+      <UniqueIdentifier>{b2cbbc7c-3cbd-4a39-b783-59c8aba8f223}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Controllers">
+      <UniqueIdentifier>{9cbfbc3f-1dd4-434e-860b-9f57eca66df4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Views">
+      <UniqueIdentifier>{c12780a3-6be6-407e-a504-dac592b2ce9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Models">
+      <UniqueIdentifier>{c0fbb88e-9001-4360-8c75-13035fabe3a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Controllers">
+      <UniqueIdentifier>{c8bf4e17-dde4-4646-9511-b71b2684f8af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Views">
+      <UniqueIdentifier>{86d87a66-e30c-4bfd-855e-6072adc93c3f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CovidTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\CipherText.cpp">
+      <Filter>源文件\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\Date.cpp">
+      <Filter>源文件\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\DateTime.cpp">
+      <Filter>源文件\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\MD5.cpp">
+      <Filter>源文件\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\Time.cpp">
+      <Filter>源文件\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\Tube.cpp">
+      <Filter>源文件\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\TubeManager.cpp">
+      <Filter>源文件\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\User.cpp">
+      <Filter>源文件\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\UserManager.cpp">
+      <Filter>源文件\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Models\UserRecord.cpp">
+      <Filter>源文件\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\AdminControl.cpp">
+      <Filter>源文件\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\CollectorControl.cpp">
+      <Filter>源文件\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\ControlerAbstractBase.cpp">
+      <Filter>源文件\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\EntryStaffControl.cpp">
+      <Filter>源文件\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\Login.cpp">
+      <Filter>源文件\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\Register.cpp">
+      <Filter>源文件\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Controllers\TesteeControl.cpp">
+      <Filter>源文件\Controllers</Filter>
+    </ClCompile>
+    <ClCompile Include="Views\AdminView.cpp">
+      <Filter>源文件\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="Views\CollectorView.cpp">
+      <Filter>源文件\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="Views\EntryStaffView.cpp">
+      <Filter>源文件\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="Views\LoginView.cpp">
+      <Filter>源文件\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="Views\PortalView.cpp">
+      <Filter>源文件\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="Views\RegisterView.cpp">
+      <Filter>源文件\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="Views\TesteeView.cpp">
+      <Filter>源文件\Views</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Models\CipherText.hpp">
+      <Filter>头文件\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Constant.hpp">
+      <Filter>头文件\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Date.hpp">
+      <Filter>头文件\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\DateTime.hpp">
+      <Filter>头文件\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\MD5.hpp">
+      <Filter>头文件\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Time.hpp">
+      <Filter>头文件\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\Tube.hpp">
+      <Filter>头文件\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\TubeManager.hpp">
+      <Filter>头文件\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\User.hpp">
+      <Filter>头文件\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\UserManager.hpp">
+      <Filter>头文件\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Models\UserRecord.hpp">
+      <Filter>头文件\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\AdminControl.hpp">
+      <Filter>头文件\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\CollectorControl.hpp">
+      <Filter>头文件\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\ControlerAbstractBase.hpp">
+      <Filter>头文件\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\EntryStaffControl.hpp">
+      <Filter>头文件\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\Login.hpp">
+      <Filter>头文件\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\Register.hpp">
+      <Filter>头文件\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Controllers\TesteeControl.hpp">
+      <Filter>头文件\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Views\AdminView.hpp">
+      <Filter>头文件\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="Views\CollectorView.hpp">
+      <Filter>头文件\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="Views\EntryStaffView.hpp">
+      <Filter>头文件\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="Views\LoginView.hpp">
+      <Filter>头文件\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="Views\PortalView.hpp">
+      <Filter>头文件\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="Views\RegisterView.hpp">
+      <Filter>头文件\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="Views\TesteeView.hpp">
+      <Filter>头文件\Views</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
