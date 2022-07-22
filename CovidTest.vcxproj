@@ -180,6 +180,10 @@
     <ClInclude Include="Views\RegisterView.hpp" />
     <ClInclude Include="Views\TesteeView.hpp" />
   </ItemGroup>
+  <ItemGroup>
+    <Text Include="Resource\Tube.txt" />
+    <Text Include="Resource\User.txt" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
