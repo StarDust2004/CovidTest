@@ -10,6 +10,8 @@
 #include <ratio>
 #include <chrono>
 #include <ctime>
+#include <iomanip>
+#include <string>
 
 #include "Time.hpp"
 using namespace std;
@@ -167,7 +169,10 @@ long long Time::operator-(const Time& aTime) const {
 
 //overloading stream insertion(extraction) operators
 ostream& operator<<(ostream& Stream, const Time& aTime) {
-    Stream << aTime.m_uHour << ':' << aTime.m_uMinute << ':' << aTime.m_uSecond;
+    Stream << setfill('0') << setw(2) << aTime.m_uHour << ':' 
+           << setfill('0') << setw(2) << aTime.m_uMinute << ':' 
+           << setfill('0') << setw(2) << aTime.m_uSecond;
+
     return Stream;
 }
 
